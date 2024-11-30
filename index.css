@@ -2,8 +2,9 @@ h1  {
     display: block;
     background-color: chartreuse;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 301px;
+    font-size: 30px;
     position: fixed;
     overflow: scroll;
-    height: 100px;
+    height: 60px;
+    top: auto;
 }
