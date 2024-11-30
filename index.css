@@ -1,10 +1,11 @@
 h1  {
-    display: block;
+    display: inline-block;
     background-color: chartreuse;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
     position: fixed;
     overflow: scroll;
     height: 60px;
-    top: auto;
+    top: 20px;
+    width: 300px;
 }
