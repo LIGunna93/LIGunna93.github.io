@@ -1,57 +1,313 @@
-<html>
-  <head>
-    <title>Lio's Dev Site</title>
-    <link rel="stylesheet" href="index.css">
-  </head>
-  <body>
-    <h1>Lionel Ilunga</h1>
-    <h3>Welcome to my website! <br>
-    I hope you have an enlightening stay :)</h3>
-   
-      <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<div class="headinfo">
+    <header>
+        <div class="pbes">
+            <div class="logo"><img src="images/cropped-new-logo-01.webp" alt="LOGO"></div>
+            <h2 class="title">Pamodzi Bio Energy Solutions</h2>
+        </div>
     
-    <h2> :DevOps: </h2> 
-    <p>
-      I'm actively aspiring to become a Full-Stack Engineer! Assimilating to the life of speaking less and typing more.
-    </p>
-    <img src="data:image/jpeg;base64,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"      >
-    <div>
-      <h3>Full-Stack Road Map</h3>
-      <h4>WebDev</h4>
-      <ol> 
-        <li>HTML Fundamentals</li>
-        <li>CSS Fundamentals</li>
-        <li>Deploying Websites Locally & Hosting</li>
-        <li>CSS Styling</li>
-        <li>Creating Responsive Websites</li>
-      </ol>
-      <h4>Interactive WebBuild</h4>
-      <ol> 
-        <li>JS Syntax</li>
-        <li>Git & GitHub</li>
-        <li>Interactive & Accessible WebBuild </li>
-     </ol>    
-      <h4>Front- & Back-End Dev </h4>
-      <ol> 
-        <li>JS Testing</li>
-        <li>AsyncJS & HTTP Requests</li>
-        <li>Web Apps | React</li>
-      </ol>
+        <div class="navigation">
+            <ul>
+                <a href="index.html">Home</a>
+                <a href="#">Products & Services</a>
+                <a href="#">About Us</a>
+                <a href="#">News & Media</a>
+            </ul>
+        </div>
+    </header>
+</div>
 
-      <h3>Dev Aspirations</h3>
-      <ul>
-        <li>Develop Dev Portofolio</li>
-        <li>Dev Career Start</li>
-        <li>Private Business Site Dev</li>
-        <li>Dev Multi-Functional Apps</li>
-      </ul>
+<body>
+
+    <div class="subtitle">
+        <h1>"Bridging the energy demand gap in Africa through Biogas"</h1>
+        
+        <h3>Our team is dedicated to innovation, collaboration, and integrity in all our endeavors.</h3>
+        
     </div>
-  </body>
-  <footer>
-    <p>
-      <strong>
-          This episode shall be resumed....soon..hopefully :)
-      </strong>
-    </p>
-  </footer>
+
+    <!-- Mission/Vision Statement Section + Who We Are -->
+    <div class="statement">
+        <div class="leftstate">
+            <h3>Our mission at PBES involves turning biogas into an affordable and accessible source of clean energy for African communities. There have been major developments but equally there still remains a large gap in the energy demand whether due to economic limitations, geological positional restrictions or many other factors. </h3>
+            <h3>As of January 2025, there are reportedly still as much as 600 million Africans living in energy poverty as per the <a href="https://www.afdb.org/en/news-and-events/lighting-africa-transformative-power-mission-300-80404">AFDB</a> with an aim to half the figure by the year 2030.</h3>
+            <h3>We are committed to making a positive impact on the environment and the communities we serve.</h3>
+        </div>
+        <div class="rightstate">
+            <figure>
+                <img src="https://images.stockcake.com/public/4/4/f/44fe16d0-a3c6-4264-8c47-f2d7fbe14e69_large/illuminated-continent-map-stockcake.jpg" alt="">
+                <caption><h3>Our Vision for a 'Lit-Up' Africa</h3></caption>
+            </figure>
+        </div>
+    </div>
+    <div class="sectionlabel">
+        <h2>Who We Are</h2>
+    </div>
+
+    <div class="whoweare">
+        <div class="description">
+            <h3>We are a collective of young African entrepreneurs with a shared vision to bridge the energy demand gap in Africa through biogas. Our team is made up of individuals from diverse backgrounds and experiences, united by our passion for renewable energy and sustainability. We are committed to making a positive impact on the environment and the communities we serve. Our team is dedicated to innovation, collaboration, and integrity in all our endeavors.</h3>
+        </div>
+        <div class="relatedimages"></div>
+        <div class="targets"></div>
+    </div>
+
+    <!-- What We Do-->
+    <div class="sectionlabel">
+        <h2>What We Do</h2>
+    </div>
+
+    <div class="whatwedofigs">
+
+        <div class="container">
+            <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+            <figure class="wp-block-image size-large"><img data-attachment-id="447" data-permalink="https://pamodzibes.com/home-2/modula-pbes-plant/" data-orig-file="https://pamodzibes.com/wp-content/uploads/2024/04/modula-pbes-plant.jpg" data-orig-size="289,206" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="modula-pbes-plant" data-image-description="" data-image-caption="" data-medium-file="https://pamodzibes.com/wp-content/uploads/2024/04/modula-pbes-plant.jpg?w=289" data-large-file="https://pamodzibes.com/wp-content/uploads/2024/04/modula-pbes-plant.jpg?w=289" width="289" height="206" src="https://pamodzibes.com/wp-content/uploads/2024/04/modula-pbes-plant.jpg?w=289" alt="" class="wp-image-447" srcset="https://pamodzibes.com/wp-content/uploads/2024/04/modula-pbes-plant.jpg 289w, https://pamodzibes.com/wp-content/uploads/2024/04/modula-pbes-plant.jpg?w=150 150w" sizes="(max-width: 289px) 100vw, 289px"></figure>
+            
+            
+            
+            <p>We produce biogas on a smaller scale by utilizing a modular system.</p>
+            </div>
+        </div>
+        
+        <div class="container">        
+            <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+            <figure class="wp-block-image size-large"><img data-attachment-id="448" data-permalink="https://pamodzibes.com/home-2/process-flow-pbes-1/" data-orig-file="https://pamodzibes.com/wp-content/uploads/2024/04/process-flow-pbes-1.png" data-orig-size="680,412" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="process-flow-pbes-1" data-image-description="" data-image-caption="" data-medium-file="https://pamodzibes.com/wp-content/uploads/2024/04/process-flow-pbes-1.png?w=300" data-large-file="https://pamodzibes.com/wp-content/uploads/2024/04/process-flow-pbes-1.png?w=680" width="680" height="412" src="https://pamodzibes.com/wp-content/uploads/2024/04/process-flow-pbes-1.png?w=680" alt="" class="wp-image-448" srcset="https://pamodzibes.com/wp-content/uploads/2024/04/process-flow-pbes-1.png 680w, https://pamodzibes.com/wp-content/uploads/2024/04/process-flow-pbes-1.png?w=150 150w, https://pamodzibes.com/wp-content/uploads/2024/04/process-flow-pbes-1.png?w=300 300w" sizes="(max-width: 680px) 100vw, 680px"></figure>
+            
+            
+            
+            <p>We collaborate with like-minded B2B partners and leverage complementary business models to scale up biogas production significantly.</p>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"><div class="wp-block-image">
+            <figure class="aligncenter size-medium is-resized"><img data-attachment-id="449" data-permalink="https://pamodzibes.com/home-2/fertilizer-7465857_1280/" data-orig-file="https://pamodzibes.com/wp-content/uploads/2024/04/fertilizer-7465857_1280.png" data-orig-size="1280,1280" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="fertilizer-7465857_1280" data-image-description="" data-image-caption="" data-medium-file="https://pamodzibes.com/wp-content/uploads/2024/04/fertilizer-7465857_1280.png?w=300" data-large-file="https://pamodzibes.com/wp-content/uploads/2024/04/fertilizer-7465857_1280.png?w=750" loading="lazy" width="300" height="300" src="https://pamodzibes.com/wp-content/uploads/2024/04/fertilizer-7465857_1280.png?w=300" alt="" class="wp-image-449" style="object-fit:cover;width:193px;height:auto" srcset="https://pamodzibes.com/wp-content/uploads/2024/04/fertilizer-7465857_1280.png?w=300 300w, https://pamodzibes.com/wp-content/uploads/2024/04/fertilizer-7465857_1280.png?w=600 600w, https://pamodzibes.com/wp-content/uploads/2024/04/fertilizer-7465857_1280.png?w=150 150w" sizes="(max-width: 300px) 100vw, 300px"></figure></div>
+            
+            
+            <p>We transform the slurry from our biogas system into green manure, which we refine into biofertilizer through additional processing.</p>
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="whatwedo">
+        
+        <div class="products">
+
+            <div class="products-header">
+                <h2>Products</h2>
+            </div>
+
+            <div class="products-content">
+                <p>We offer a range of products and services to meet the energy needs of our customers. Our biogas solutions are designed to be affordable, efficient, and environmentally friendly.</p>
+                <p>We are committed to providing high-quality products and services that meet the needs of our customers. Our team is dedicated to innovation, collaboration, and integrity in all our endeavors.</p>
+                <p>Our products include:</p>
+           
+                <ul>
+                    <li>Biogas</li>
+                    <li>Biogas Storage Solutions</li>
+                    <li>Biofertilizer</li>
+                    <li>Biogas Utilization Systems</li>
+
+                </ul>
+            </div>
+            
+        </div>
+    
+
+        <div class="services">
+            
+            <div class="services-header">
+                <h2>Services</h2>
+            </div>
+            
+            <div class="services-content">
+                <p>Our team of experts is available to provide guidance and support throughout the entire process, from initial consultation to installation and maintenance.</p>
+                <p>We work closely with our customers to understand their unique needs and develop customized solutions that meet their specific requirements.</p>
+                <p>Our services include:</p>
+                
+                <ul>
+                    <li>Site Capacity Evaluation</li>
+                    <li>Engineering/Design/Project Management</li>
+                    <li>Full Scale Project Development & Construction</li>
+                    <li>Biogas Training and Education Programs</li>
+                    
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    
+    <!-- Projects-->
+    <div class="sectionlabel">
+        <h2>Projects</h2>
+    </div>
+
+    <div class="projects">
+
+        <div>
+            <h3>Mini-Prototype</h3>
+            <p>In early xxx we were able to put the theory to test by developing a small-scale Mini-Prototype using customary tooling & sealing procedures on a 50L PVC Container. <br>
+            The experiment was a success as we collected a very small but viable amount of Biogas from our digester set-up over a retention time of 10 days.</p>
+            <p>Status: COMPLETE</p>
+
+            <h3>MVP</h3>
+            <p>The MVP is our initial full-scale Biogas Digester that is currently undergoing construction. The digester will have a volume of 24m3 and will predominantly run off of Cow Dung as a sole substrate before further co-digestion considerations. The digester will initially be used to supply electricity and lighting to the plant and site facilities before making the Biogas available on a full-scale for consumers.</p>
+            <p>Status: ONGOING</p>
+
+            <h3>Main Plant</h3>
+            <p>Looking into the near future, we aim to grow our project simutaenously while scaling up to a Main Plant of 100m3 to meet our site and consumer demands accordingly.</p>
+            <p>Status: </p>
+
+        </div>
+
+    </div>
+
+        <!-- Team-->
+
+    <div class="sectionlabel">
+        <h2>The Team</h2>
+    </div>
+
+    <div class="teaminfo">
+        <h3>Our team is made up of a diverse group of individuals with a shared passion for renewable energy and sustainability. We are committed to making a positive impact on the environment and the communities we serve.</h3>
+        
+    </div>
+
+    <div class="team">
+        <div class="team-member">
+            <div>
+                <img src="img data-attachment-id="434" data-permalink="https://pamodzibes.com/the-team/profile-foto/" data-orig-file="https://pamodzibes.com/wp-content/uploads/2023/11/profile-foto.jpg" data-orig-size="3024,4032" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2.8&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;iPhone 14 Pro Max&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1690024097&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;9&quot;,&quot;iso&quot;:&quot;125&quot;,&quot;shutter_speed&quot;:&quot;0.0082644628099174&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;,&quot;latitude&quot;:&quot;55.675155555556&quot;,&quot;longitude&quot;:&quot;12.570013888889&quot;}" data-image-title="profile-foto" data-image-description="" data-image-caption="" data-medium-file="https://pamodzibes.com/wp-content/uploads/2023/11/profile-foto.jpg?w=225" data-large-file="https://pamodzibes.com/wp-content/uploads/2023/11/profile-foto.jpg?w=750" loading="lazy" width="768" height="1024" src="https://pamodzibes.com/wp-content/uploads/2023/11/profile-foto.jpg?w=768" alt="" class="wp-image-434 size-full" srcset="https://pamodzibes.com/wp-content/uploads/2023/11/profile-foto.jpg?w=768 768w, https://pamodzibes.com/wp-content/uploads/2023/11/profile-foto.jpg?w=1536 1536w, https://pamodzibes.com/wp-content/uploads/2023/11/profile-foto.jpg?w=113 113w, https://pamodzibes.com/wp-content/uploads/2023/11/profile-foto.jpg?w=225 225w" sizes="(max-width: 768px) 100vw, 768px" alt="Team Member 1">
+            </div>
+            <div class="team-member-info">
+                <h3>Tolulope Amusat</h3>
+                <p>Founder & Chief Executive Officer [CEO]</p>
+                <p>Nigeria | Spain</p>
+            </div>
+        </div>
+        <div class="team-member">
+            <div>
+                <img src="img data-attachment-id="383" data-permalink="https://pamodzibes.com/mukhtar-copy-2/" data-orig-file="https://pamodzibes.com/wp-content/uploads/2023/03/mukhtar-copy.jpg" data-orig-size="3456,5184" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;3.5&quot;,&quot;credit&quot;:&quot;Ahmed T.El-Haddad&quot;,&quot;camera&quot;:&quot;Canon EOS 7D&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1477854891&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;50&quot;,&quot;iso&quot;:&quot;800&quot;,&quot;shutter_speed&quot;:&quot;0.01&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="Mukhtar copy" data-image-description="" data-image-caption="" data-medium-file="https://pamodzibes.com/wp-content/uploads/2023/03/mukhtar-copy.jpg?w=200" data-large-file="https://pamodzibes.com/wp-content/uploads/2023/03/mukhtar-copy.jpg?w=683" width="683" height="1024" src="https://pamodzibes.com/wp-content/uploads/2023/03/mukhtar-copy.jpg?w=683" alt="" class="wp-image-383 size-full" srcset="https://pamodzibes.com/wp-content/uploads/2023/03/mukhtar-copy.jpg?w=683 683w, https://pamodzibes.com/wp-content/uploads/2023/03/mukhtar-copy.jpg?w=1366 1366w, https://pamodzibes.com/wp-content/uploads/2023/03/mukhtar-copy.jpg?w=100 100w, https://pamodzibes.com/wp-content/uploads/2023/03/mukhtar-copy.jpg?w=200 200w, https://pamodzibes.com/wp-content/uploads/2023/03/mukhtar-copy.jpg?w=768 768w" sizes="(max-width: 683px) 100vw, 683px" alt="Team Member 2">
+            </div>
+
+            <div class="team-member-info">
+                <h3>Mukhtar Abubakar</h3>
+                <p>Founder & Chief Financial Officer [CFO]</p>
+                <p>Nigeria</p>
+            </div>
+            
+        </div>
+        <div class="team-member">
+            <div>
+                <img src="img data-attachment-id="381" data-permalink="https://pamodzibes.com/adom-pic-2/" data-orig-file="https://pamodzibes.com/wp-content/uploads/2023/03/adom-pic.jpg" data-orig-size="789,521" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1557737552&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="Adom pic" data-image-description="" data-image-caption="" data-medium-file="https://pamodzibes.com/wp-content/uploads/2023/03/adom-pic.jpg?w=300" data-large-file="https://pamodzibes.com/wp-content/uploads/2023/03/adom-pic.jpg?w=750" width="789" height="521" src="https://pamodzibes.com/wp-content/uploads/2023/03/adom-pic.jpg" alt="" class="wp-image-381 size-full" srcset="https://pamodzibes.com/wp-content/uploads/2023/03/adom-pic.jpg 789w, https://pamodzibes.com/wp-content/uploads/2023/03/adom-pic.jpg?w=150&amp;h=99 150w, https://pamodzibes.com/wp-content/uploads/2023/03/adom-pic.jpg?w=300&amp;h=198 300w, https://pamodzibes.com/wp-content/uploads/2023/03/adom-pic.jpg?w=768&amp;h=507 768w" sizes="(max-width: 789px) 100vw, 789px" alt="Team Member 3">
+            </div>
+            <div class="team-member-info">
+                <h3>Adom Amoah</h3>
+                <p>Founder & Chief Operations Officer [COO]</p>
+                <p>South Africa | Ghana</p>
+            </div>
+        </div>
+        <div class="team-member">
+            <div>
+                <img src="img data-attachment-id="382" data-permalink="https://pamodzibes.com/hendrix_pic-2/" data-orig-file="https://pamodzibes.com/wp-content/uploads/2023/03/hendrix_pic.jpg" data-orig-size="1282,1710" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;3.5&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;COOLPIX S8100&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1520432132&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;5.4&quot;,&quot;iso&quot;:&quot;328&quot;,&quot;shutter_speed&quot;:&quot;0.033333333333333&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="Hendrix_pic" data-image-description="" data-image-caption="" data-medium-file="https://pamodzibes.com/wp-content/uploads/2023/03/hendrix_pic.jpg?w=225" data-large-file="https://pamodzibes.com/wp-content/uploads/2023/03/hendrix_pic.jpg?w=750" loading="lazy" width="750" height="1000" src="https://pamodzibes.com/wp-content/uploads/2023/03/hendrix_pic.jpg?w=750" alt="" class="wp-image-382 size-full" srcset="https://pamodzibes.com/wp-content/uploads/2023/03/hendrix_pic.jpg?w=750 750w, https://pamodzibes.com/wp-content/uploads/2023/03/hendrix_pic.jpg?w=112 112w, https://pamodzibes.com/wp-content/uploads/2023/03/hendrix_pic.jpg?w=225 225w, https://pamodzibes.com/wp-content/uploads/2023/03/hendrix_pic.jpg?w=768 768w, https://pamodzibes.com/wp-content/uploads/2023/03/hendrix_pic.jpg 1282w" sizes="(max-width: 750px) 100vw, 750px" alt="Team Member 4">
+            </div>            
+            <div class="team-member-info">
+                <h3>Hendrix Lando</h3>
+                <p>Founder & Chief Technology Officer [CTO]</p>
+                <p>Cameroon | USA</p>
+            </div>
+        </div>
+        <div class="team-member">
+            <div>
+                <img src="img data-attachment-id="385" data-permalink="https://pamodzibes.com/dav_soft-2/" data-orig-file="https://pamodzibes.com/wp-content/uploads/2023/03/lio-pic-.jpg" data-orig-size="1589,2006" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2.2&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;VTR-L09&quot;,&quot;caption&quot;:&quot;dav_soft&quot;,&quot;created_timestamp&quot;:&quot;1579695972&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;3.95&quot;,&quot;iso&quot;:&quot;320&quot;,&quot;shutter_speed&quot;:&quot;0.03&quot;,&quot;title&quot;:&quot;dav_soft&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="dav_soft" data-image-description="" data-image-caption="<p>dav_soft</p>" data-medium-file="https://pamodzibes.com/wp-content/uploads/2023/03/lio-pic-.jpg?w=238" data-large-file="https://pamodzibes.com/wp-content/uploads/2023/03/lio-pic-.jpg?w=750" loading="lazy" width="750" height="946" src="https://pamodzibes.com/wp-content/uploads/2023/03/lio-pic-.jpg?w=750" alt="" class="wp-image-385 size-full" srcset="https://pamodzibes.com/wp-content/uploads/2023/03/lio-pic-.jpg?w=750 750w, https://pamodzibes.com/wp-content/uploads/2023/03/lio-pic-.jpg?w=1500 1500w, https://pamodzibes.com/wp-content/uploads/2023/03/lio-pic-.jpg?w=119 119w, https://pamodzibes.com/wp-content/uploads/2023/03/lio-pic-.jpg?w=238 238w, https://pamodzibes.com/wp-content/uploads/2023/03/lio-pic-.jpg?w=768 768w, https://pamodzibes.com/wp-content/uploads/2023/03/lio-pic-.jpg?w=811 811w" sizes="(max-width: 750px) 100vw, 750px" alt="Team Member 5">
+            </div>
+            <div class="team-member-info">
+                <h3>Lionel Ilunga</h3>
+                <p>Founder & Chief Product Officer [CPO]</p>
+                <p>Zambia | DR Congo</p>
+            </div>
+            
+        </div>
+    </div>
+    </div>
+
+    <!-- Contact Us -->
+
+    <div class="contact">
+        
+        <div class="contactinfo">
+        <h2>Contact Us</h2>
+        <div>
+            <p>If you have any questions or would like to learn more about our work, please feel free to reach out to us.</p>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+
+        <div class="contactdetails">
+            <div>
+                <h3>Contact Details</h3>
+            </div>
+            <div class="contactdetails-content">
+                <p>Phone: <a href="">+27 82 123 4567</a></p><br>
+                <p>Email: <a href="">info@pamodzibes.com</a></p><br>
+                <p>Address: 6 Nasawara Street, War College Gwarimpa <br> Abuja, Nigeria</p> 
+            </div>
+        
+        </div>
+
+        <div class="socials">
+            <div class="socials-header">
+                <h2>Social Media</h2>
+            </div>
+            <div class="socials-content">
+                <p>Follow us on social media to stay updated on our latest news and projects.</p>
+                <a href="https://www.facebook.com/pamodzibioenergy">Facebook</a>
+                <a href="https://www.instagram.com/pamodzibioenergy/">Instagram</a>
+                <a href="https://www.linkedin.com/company/pamodzi-bio-energy-solutions/">LinkedIn</a>
+                 <a href="https://twitter.com/PamodziBio">Twitter</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+    <!-- Footer -->
+
+<footer class="footer">
+
+    <div class="copyright">
+        <p>© 2025 Pamodzi Bio Energy Solutions</p>
+    </div>
+
+    <div class="footerlinks">
+        <div>
+            <a href="">Impressum</a>
+            <a href="">Privacy Policy</a>
+            <a href="">Terms of Service</a>
+        </div>
+    </div>
+
+    <div class="design">
+        <p>Designed by <a href="https://www.linkedin.com">Lionel Ilunga</a></p>
+    </div>
+
+</footer>
+
 </html>
