@@ -286,16 +286,19 @@
         display: flex;
         position: relative;
         margin: 0 auto;
+        padding: 0 1rem;
         height: fit-content;
         flex-direction: row;
+        align-items: flex-start;
+        justify-content: center ;
         background-color: rgba(0, 0, 0, 0.9);
     }
     .contactinfo {
         display: inline-flex;
         position: relative;
         flex-direction: column;
-        margin: 0;
-        width: 2fr;
+        margin: 0 auto;
+        width: 45%;	
         color: azure;
         justify-content : center;
         align-items: center;
@@ -304,11 +307,31 @@
         display: inline-flex;
         position: relative;
         flex-direction: column;
+        margin: 0 auto;
+        width: 35%;
+        height: fit-content;
+        padding: 0;
+        color: azure;
+    }
+    .contactdetails-header {
+        display: inline-flex;
+        position: relative;
+        flex-direction: column;
         margin: 0;
-        width: 2fr;
+        width: 100%;
+        height: fit-content;
+        color: azure;
+    }
+    .contactdetails-content {
+        display: inline-flex;
+        position: relative;
+        flex-direction: column;
+        margin: 0;
+        width: 100%;
+        height: fit-content;
         color: azure;
         justify-content : center;
-        }
+    }
     .contactdetails a {
         display: inline-flex;
         position: relative;
@@ -321,9 +344,30 @@
         position: relative;
         flex-direction: column;
         margin: 0;
-        width: 1fr;
+        width: 20%;
         color: azure;
         justify-content: center;
+    }
+    .socials-content {
+        display: inline-flex;
+        position: relative;
+        flex-direction: column;
+        margin: 0;
+        width: 100%;
+        height: fit-content;
+        color: azure;
+        align-items: center;
+        justify-content : center;
+    }
+    .socials-header {
+        display: inline-flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+        width: 100%;
+        height: fit-content;
+        color: azure;
     }
     .socials a  {
         display: inline-flex;
